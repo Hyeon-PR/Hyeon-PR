@@ -71,3 +71,4 @@
 - [2025년 회고, 끊임없이 Goin' up, up, up 했던 순간들](https://hyeondev.blogspot.com/2025/12/2025-goin-up-up-up.html)
 - [[컴퓨터네트워크] Application Layer | HTTP & WWW, SMTP & Email, DNS](https://hyeondev.blogspot.com/2025/12/application-layer-http-www-smtp-email.html)
 - [[컴퓨터네트워크] Transport Layer | UDP, TCP, Flow/Error/Congestion Control](https://hyeondev.blogspot.com/2025/12/transport-layer-udp-tcp.html)
+
