@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4 # 업데이트된 버전
         with:
-          node-version: "20" # Node.js 20 사용
+          node-version: "22" # Node.js 22 사용
 
       - name: Install dependencies
         run: npm ci
@@ -29,9 +29,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         run: |
-          git config --local user.name 'hyeon-BL'
+          git config --local user.name 'Hyeon-PR'
           git config --local user.email 'lhbj1115@gmail.com'
-          git remote set-url origin https://hyeon-BL:${{ secrets.GITHUB_TOKEN }}@github.com/hyeon-BL/hyeon-BL.git 
+          git remote set-url origin https://Hyeon-PR:${{ secrets.GITHUB_TOKEN }}@github.com/Hyeon-PR/Hyeon-PR.git 
           if [ -n "$(git status --porcelain)" ]; then
             git add README.md
             git commit -m 'Update README with latest blog posts'
