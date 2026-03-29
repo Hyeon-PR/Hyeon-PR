@@ -66,9 +66,9 @@
 
 ### Latest Blog Posts
 
+- [[스타트업/기술] GitHub Actions CI 파이프라인 | 프로덕션 배포 전 런타임 에러를 차단하는 테스트 자동화](https://hyeondev.blogspot.com/2026/03/github-actions-ci.html)
+- [[스타트업/기술] GCP Vertex AI | 프로덕션 환경을 위한 GeminiAPI 마이그레이션](https://hyeondev.blogspot.com/2026/03/gcp-vertex-ai-geminiapi-rpm-27.html)
+- [[스타트업/기술] FastAPI와 클라우드 네이티브 | Cloud Run 도입과 백엔드 전환기 (Part 2)](https://hyeondev.blogspot.com/2026/03/fastapi-cloud-run-part-2.html)
 - [[스타트업/기술] Firebase Storage 이미지 로딩 최적화 | GCP Bucket 직접 호출을 통한 Latency 개선](https://hyeondev.blogspot.com/2026/03/firebase-storage-gcp-bucket-latency.html)
 - [[스타트업/기술] FastAPI와 클라우드 네이티브 | 클라이언트 LLM 호출의 한계와 백엔드 전환기 (Part 1)](https://hyeondev.blogspot.com/2026/03/fastapi-llm-part-1.html)
-- [[스타트업/협업] 디스코드(Discord), 단순한 메신저를 넘어 우리 팀의 가상 오피스가 되기까지](https://hyeondev.blogspot.com/2026/01/discord.html)
-- [2025년 회고, 끊임없이 Goin' up, up, up 했던 순간들](https://hyeondev.blogspot.com/2025/12/2025-goin-up-up-up.html)
-- [[컴퓨터네트워크] Application Layer | HTTP & WWW, SMTP & Email, DNS](https://hyeondev.blogspot.com/2025/12/application-layer-http-www-smtp-email.html)
 
