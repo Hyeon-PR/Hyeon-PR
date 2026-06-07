@@ -66,9 +66,9 @@
 
 ### Latest Blog Posts
 
+- [[스타트업/기술] 알림함 아키텍처: Fan-out on Write vs Fan-out on Read | 비용을 '구독자 수'가 아닌 '활성 유저 수'에 비례시키기](https://hyeondev.blogspot.com/2026/06/fan-out-on-write-vs-fan-out-on-read.html)
 - [[스타트업/기술] WebP 변환을 통한 이미지 로딩 최적화 및 GCS 업로드 자동화 | PNG 대비 용량 89%, 지연 시간 82% 개선](https://hyeondev.blogspot.com/2026/05/webp-gcs-png-89-82.html)
 - [[스타트업/기술] SSoT 기반 카탈로그 시스템 설계 | 파편화된 가격 데이터의 비효율성을 극복하고 프로모션 구조 구축하기](https://hyeondev.blogspot.com/2026/04/ssot.html)
 - [[스타트업/이슈] Google Play 인앱 결제 API | "insufficient permissions" 오류](https://hyeondev.blogspot.com/2026/04/google-play-api-insufficient-permissions.html)
 - [[스타트업/기술] Node.js & App Store 인앱결제 | 결제 시스템 아키텍처 (Part 2)](https://hyeondev.blogspot.com/2026/04/nodejs-app-store-part-2.html)
-- [[스타트업/기술] Node.js & Google Play 인앱결제 | 결제 시스템 아키텍처 설계 (Part 1)](https://hyeondev.blogspot.com/2026/04/nodejs-google-play-part-1.html)
 
