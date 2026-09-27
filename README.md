@@ -1,66 +1,92 @@
 <div align="center">
-  
-  # 💻 HyeonJun, Lee
-  ### AI Enthusiast | Tech Entrepreneur | CS @ DGIST
-  *“Today, Better Than Yesterday”*
 
-  <p>Bridging cutting-edge AI research with scalable, commercial product architectures.</p>
+  # HyeonJun Lee
+  ### AI Product Engineer — LLM serving & agent pipelines in production
+  Co-founder & Tech Lead @ Tecketing · CS @ DGIST (on leave)
+
+  <p>I build the systems around LLMs — gates, validators, routing, observability —<br>so the product doesn't depend on the model behaving.</p>
 
   <a href="mailto:lhbj1115@gmail.com"><img src="https://img.shields.io/badge/Email-00B4AB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/hyeonjun-lee-5446542b6/"><img src="https://img.shields.io/badge/LinkedIn-00B4AB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://hyeondev.blogspot.com/"><img src="https://img.shields.io/badge/blog-00B4AB?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Blog" /></a>
-
-  <br><br>
-
-  <a href="https://solved.ac/lhbj1115">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lhbj1115" alt="Solved.ac Profile" />
-  </a>
-  <br>
-  <img src="http://mazandi.herokuapp.com/api?handle=lhbj1115&theme=cold" alt="Hyeon's profile" />
+  <a href="https://hyeondev.blogspot.com/"><img src="https://img.shields.io/badge/Blog-00B4AB?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" /></a>
 
 </div>
 
 ---
 
-## 🚀 Core Impact & Ventures
+## 🔍 Now building — Sleuth
 
-### 🔍 Sleuth : AI Interactive Mystery Platform
-*R&D & Commercialization Lead | Open Beta Prep*
-* **Architecture:** Engineered a **FastAPI** & **Vertex AI** backend, slashing p50 latency to **<2000ms**.
-* **LLM Optimization:** Compressed AI personas up to **53% reduction** via structured prompt engineering.
-* **Infra:** Orchestrated real-time data flow with **Firestore** and deployed via **GCP** (Cloud Run/Docker).
+An AI mystery game where players interrogate AI suspects to solve crime-scene cases. Live on iOS and Android since June 2026.
+I own the backend: LLM serving, a multi-agent content pipeline, and payments.
 
-### 🏢 Tecketing : Startup Leadership (https://www.tecketing.co.kr/)
-*Project Lead | 2024 - Present*
-* **Traction:** Secured **7 national startup awards** and registered **3 trademarks**.
-* **Execution:** Successfully led the **KOCCA** commercialization project.
-* **Agile Management:** Hosted 39 consecutive weeks of strategic dev sprints in 2025.
+<a href="https://apps.apple.com/kr/app/id6759363417"><img src="https://img.shields.io/badge/App_Store-000000?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
+<a href="https://play.google.com/store/apps/details?id=com.sleuth.fictionflare"><img src="https://img.shields.io/badge/Google_Play-000000?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" /></a>
 
-### 🎬 3D Motion Automation (with © BLUE BONFIRE)
-*Independent R&D*
-* Developed a **Python & AI** pipeline for automated lip-syncing retargeting in **Cinema 4D**.
+| 755 | 37m 38s | +52% |
+|:---:|:---:|:---:|
+| active users, last 90 days | avg. engagement per user | weekly actives, week over week<br>(156 → 237 after our Wadiz campaign) |
+
+<sub>GA4, as of Sep 26, 2026</sub>
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🧭 How I build with LLMs
 
-### AI & Data
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-00B4AB?style=flat-square&logo=googlecloud&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-00B4AB?style=flat-square)
+**Constrain agents with code, not prompts.**
+Our authoring agents started approving their own checkpoints. Now checkpoint transitions go through a deterministic gate that re-runs the validator itself instead of trusting the agent's report. → [write-up](https://hyeondev.blogspot.com/2026/08/blog-post.html)
+
+**Decide with production data.**
+A 50/50 production A/B test rejected a model swap that looked right on paper (p95 1.5 s → 4.5 s, +57% cost per call). The same test showed our cross-model fallback recovering 82 of 83 paid requests during a provider outage.
+
+**Make money paths exactly-once.**
+Idempotency keys plus Firestore transactions: zero double charges across 60 runs of 20 concurrent same-user purchases (test env). Requests that can never succeed are quarantined instead of retried forever. → [write-up](https://hyeondev.blogspot.com/2026/09/part-3.html)
+
+**Tie cost to the right variable.**
+Designed the notification inbox so cost grows with active users, not with subscriber count. → [write-up](https://hyeondev.blogspot.com/2026/06/fan-out-on-write-vs-fan-out-on-read.html)
+
+---
+
+## 🏢 Beyond code
+
+Co-founded Tecketing in 2024 and ran it as CEO until 2026, then moved to Tech Lead.
+6 startup competition awards · KOCCA commercialization program · GSIA 2026 Seattle global program · 61 straight weekly sprints
+
+---
+
+## 🛠️ Stack
+
 ![Python](https://img.shields.io/badge/Python-00B4AB?style=flat-square&logo=python&logoColor=white)
-
-### Backend & Infrastructure
 ![FastAPI](https://img.shields.io/badge/FastAPI-00B4AB?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-00B4AB?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-00B4AB?style=flat-square&logo=node.js&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-00B4AB?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-00B4AB?style=flat-square&logo=docker&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-00B4AB?style=flat-square&logo=googlecloud&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-00B4AB?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-00B4AB?style=flat-square&logo=claude&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-00B4AB?style=flat-square&logo=googlecloud&logoColor=white)
 ![Firestore](https://img.shields.io/badge/Firestore-00B4AB?style=flat-square&logo=firebase&logoColor=white)
-
-### Frontend & Core
+![BigQuery](https://img.shields.io/badge/BigQuery-00B4AB?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-00B4AB?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-00B4AB?style=flat-square&logo=dart&logoColor=white)
-![C](https://img.shields.io/badge/C_Programming-00B4AB?style=flat-square&logo=c&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-00B4AB?style=flat-square&logo=linux&logoColor=white)
+
+---
+
+## ✍️ Featured Writing <sub>(in Korean)</sub>
+
+- [Game scenarios: from outsourcing to our own pipeline](https://hyeondev.blogspot.com/2026/08/blog-post.html) — building the multi-agent authoring pipeline
+- [In-app payments, Part 3: the problems that start after verification succeeds](https://hyeondev.blogspot.com/2026/09/part-3.html)
+- [FastAPI and cloud native, Part 1](https://hyeondev.blogspot.com/2026/03/fastapi-part1.html) — why LLM calls moved to the server
+
+<details>
+<summary><b>More</b> — earlier projects & problem solving</summary>
+<br>
+
+- [OctaFlip](https://github.com/Hyeon-PR/OctaFlip) — real-time 2-player board game server in C over TCP sockets with a JSON protocol
+- Autonomous-driving research — CARLA simulation, lane tracing, Jetson / F1TENTH ([Learning_AD](https://github.com/Hyeon-PR/Learning_AD))
+- 3D motion automation (with © BLUE BONFIRE) — Python pipeline for lip-sync retargeting in Cinema 4D
+
+<a href="https://solved.ac/lhbj1115"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lhbj1115" alt="Solved.ac Profile" /></a>
+<img src="http://mazandi.herokuapp.com/api?handle=lhbj1115&theme=cold" alt="Hyeon's profile" />
+
+</details>
 
 ---
 
