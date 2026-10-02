@@ -92,9 +92,9 @@ Co-founded Tecketing in 2024 and ran it as CEO until 2026, then moved to Tech Le
 
 ### Latest Blog Posts
 
-- [[스타트업/기술] 인앱결제 Part 3 | 검증에 성공한 뒤에 시작되는 문제들](https://hyeondev.blogspot.com/2026/09/part-3.html)
+- [[스타트업/기술] Sleuth 프로토타입에서 프로덕션까지 | 전체 포스팅 모음](https://hyeondev.blogspot.com/2026/09/sleuth.html)
+- [[스타트업/기술] 에이전트의 Self-approval 문제 | LLM 저작 파이프라인을 결정론적 게이트로 막다](https://hyeondev.blogspot.com/2026/09/self-approval-llm.html)
 - [[42 글로벌프로그램] 다시 미국에 오다 - (3편/완결)](https://hyeondev.blogspot.com/2026/09/42-3.html)
 - [추리 게임 시나리오, 외주에서 자체 파이프라인으로](https://hyeondev.blogspot.com/2026/08/blog-post.html)
 - [[42 글로벌프로그램] 다시 미국에 오다 - (2편)](https://hyeondev.blogspot.com/2026/08/42-2.html)
-- [[42 글로벌프로그램] 다시 미국에 오다 - (1편)](https://hyeondev.blogspot.com/2026/07/42-1.html)
 
