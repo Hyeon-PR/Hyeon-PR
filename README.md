@@ -7,7 +7,7 @@
   <p>I build the systems around LLMs — gates, validators, routing, observability —<br>so the product doesn't depend on the model behaving.</p>
 
   <a href="mailto:lhbj1115@gmail.com"><img src="https://img.shields.io/badge/Email-00B4AB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/hyeonjun-lee-5446542b6/"><img src="https://img.shields.io/badge/LinkedIn-00B4AB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/hyeon-dev/"><img src="https://img.shields.io/badge/LinkedIn-00B4AB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://hyeondev.blogspot.com/"><img src="https://img.shields.io/badge/Blog-00B4AB?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" /></a>
 
 </div>
@@ -17,14 +17,14 @@
 ## 🔍 Now building — Sleuth
 
 An AI mystery game where players interrogate AI suspects to solve crime-scene cases. Live on iOS and Android since June 2026.
-I own the backend: LLM serving, a multi-agent content pipeline, and payments.
+I own the backend: LLM serving, an agent-driven content pipeline (one session taking designer, writer, and reviewer roles in turn), and payments.
 
 <a href="https://apps.apple.com/kr/app/id6759363417"><img src="https://img.shields.io/badge/App_Store-000000?style=flat-square&logo=appstore&logoColor=white" alt="App Store" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.sleuth.fictionflare"><img src="https://img.shields.io/badge/Google_Play-000000?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" /></a>
 
 | 755 | 37m 38s | +52% |
 |:---:|:---:|:---:|
-| active users, last 90 days | avg. engagement per user | weekly actives, week over week<br>(156 → 237 after our Wadiz campaign) |
+| active users, last 90 days | avg. engagement per user | weekly actives, week over week<br>(156 → 237 during our Wadiz campaign) |
 
 <sub>GA4, as of Sep 26, 2026</sub>
 
@@ -39,7 +39,7 @@ Our authoring agents started approving their own checkpoints. Now checkpoint tra
 A 50/50 production A/B test rejected a model swap that looked right on paper (p95 1.5 s → 4.5 s, +57% cost per call). The same test showed our cross-model fallback recovering 82 of 83 paid requests during a provider outage.
 
 **Make money paths exactly-once.**
-Idempotency keys plus Firestore transactions: zero double charges across 60 runs of 20 concurrent same-user purchases (test env). Requests that can never succeed are quarantined instead of retried forever. → [write-up](https://hyeondev.blogspot.com/2026/09/part-3.html)
+Idempotency keys plus Firestore transactions: zero double charges across 60 runs of 20 concurrent same-user S-coin spend requests (test env). Requests that can never succeed are quarantined instead of retried forever. → [write-up](https://hyeondev.blogspot.com/2026/09/part-3.html)
 
 **Tie cost to the right variable.**
 Designed the notification inbox so cost grows with active users, not with subscriber count. → [write-up](https://hyeondev.blogspot.com/2026/06/fan-out-on-write-vs-fan-out-on-read.html)
@@ -71,9 +71,9 @@ Co-founded Tecketing in 2024 and ran it as CEO until 2026, then moved to Tech Le
 
 ## ✍️ Featured Writing <sub>(in Korean)</sub>
 
-- [Game scenarios: from outsourcing to our own pipeline](https://hyeondev.blogspot.com/2026/08/blog-post.html) — building the multi-agent authoring pipeline
+- [Game scenarios: from outsourcing to our own pipeline](https://hyeondev.blogspot.com/2026/08/blog-post.html) — moving scenario authoring from outsourcing to a gated agent pipeline
 - [In-app payments, Part 3: the problems that start after verification succeeds](https://hyeondev.blogspot.com/2026/09/part-3.html)
-- [FastAPI and cloud native, Part 1](https://hyeondev.blogspot.com/2026/03/fastapi-part1.html) — why LLM calls moved to the server
+- [FastAPI and cloud native, Part 1](https://hyeondev.blogspot.com/2026/03/fastapi-llm-part-1.html) — why LLM calls moved to the server
 
 <details>
 <summary><b>More</b> — earlier projects & problem solving</summary>
