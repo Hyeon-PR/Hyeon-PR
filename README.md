@@ -84,8 +84,6 @@ Co-founded Tecketing in 2024 and ran it as CEO until 2026, then moved to Tech Le
 - 3D motion automation (with © BLUE BONFIRE) — Python pipeline for lip-sync retargeting in Cinema 4D
 
 <a href="https://solved.ac/lhbj1115"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lhbj1115" alt="Solved.ac Profile" /></a>
-<img src="http://mazandi.herokuapp.com/api?handle=lhbj1115&theme=cold" alt="Hyeon's profile" />
-
 </details>
 
 ---
